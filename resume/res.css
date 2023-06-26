@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(173, 167, 156);
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .img {
+    position: absolute;
+    top: 30px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .bor{
+    border-color: azure;
+    border-style: dashed;
+    padding:5px 10px;
+    background-color: rgb(51, 80, 104);
+  }
+
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+  }
+  
+  .section-content {
+    margin-left: 20px;
+  }
+  
+  .skills {
+    margin-top: 30px;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    font-weight:bold;
+    margin-right: 10px;
+    padding: 5px 10px;
+    color:black;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  .languages {
+    margin-top: 30px;
+  }
+  
+  .languages ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .languages li {
+    font-weight:bold;
+    padding: 5px;
+    background-color: #f1f1f1;
+    color:black;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .projects {
+    margin-top: 30px;
+  }
+  
+  .projects .project {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .projects .project .project-title {
+    font-weight: bold;
+    flex-basis: 30%;
+  }
+  
+  .projects .project .project-description {
+    flex-basis: 70%;
+    margin-left: 20px;
+  }
